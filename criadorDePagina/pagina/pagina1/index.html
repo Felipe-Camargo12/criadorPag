@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS: generator</title>
+    <link id="link" rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+</head>
+<body> 
+    <header id="header">
+        <h1>Estilizador e gerador de página.</h1>
+    </header>
+    <main>
+        <div id="prog">
+        </div>
+        <div id="caixa">
+            <section class="area" id="areahtml">
+                <p><label for="textareaCode">Insira o seu HTML.</label></p>
+
+                <!--<textarea autocomplete="off" id="textareaCode" wrap="logical" spellcheck="false" "></textarea>-->
+                <textarea id="textareaCode" class="styletext" name="textareaCode"></textarea>
+            </section>
+            <p>   </p>
+            <section class="area" id="areajs">
+                <p><label for="textareaJS">Insira o programa em JavaScript.</label></p>
+                <textarea autocomplete="off" class="styletext" id="textareaJS" wrap="logical"
+                    spellcheck="false"></textarea>
+            </section>
+        </div>
+        <p id ='obs'style="font-size: 19px;">*Obs: Colocar somente o HTML a partir do main, tag's anteriores já adicionadas automáticamente </p>
+        <input type="button" value="Gerar página" id="gerar">
+        <br>
+        <input type="button" value="Voltar" id="voltar">
+        
+
+    </main>
+    <br>
+    <footer >
+        &copy; <em>Todos direitos reservados.</em>
+    </footer>
+    <script id="jsUser"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
